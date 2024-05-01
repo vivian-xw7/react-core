@@ -2,7 +2,7 @@
 export default function CoreConcept(props) {
   return (
     <li>
-      <img src='{props.img}' />
+      <img src={props.image} />
       <h3>{props.title}</h3>
       <p>{props.description}</p>
     </li>
